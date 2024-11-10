@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Interests</title>
+    <style>
+        body {
+            background-color: #493628;
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: #f5E9D3;
+            overflow: hidden; 
+        }
+
+        header {
+            width: 100%;
+            padding: 20px;
+            background-color: #6B4E3D;
+            text-align: center;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+            font-family: Arial, sans-serif;
+            font-size: 2rem;
+            color: #f5E9D3;
+            margin-bottom: 20px;
+            box-sizing: border-box; 
+        }
+        
+        .imageMain {
+            padding: 20px;
+            background-color: #6B4E3D;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px #00000080;
+            max-width: 90%;
+            max-height: 70%;
+            overflow: hidden;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: center; 
+            align-items: center;
+        }
+
+        .imageMain img {
+            
+            height: auto;
+            width: auto; 
+            border-radius: 8px;
+        }
+
+        
+        footer { 
+            width: 100%;
+            padding: 10px;
+            background-color: #6B4E3D;
+            text-align: center;
+            color: #f5e9d3;
+            font-family: Arial, sans-serif;
+            font-size: 1rem;
+            box-shadow: 0px -4px 10px #00000080;
+            position: fixed;
+            bottom: 0;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 5px; 
+        }
+
+        footer img {
+            width: 20px; 
+            height: auto;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+    <header>MY INTERESTS</header>
+    <div class="imageMain">
+        <img src="pics/MAINPAGE.jpg" alt="INTERESTS" usemap="#image-map">
+
+        <map name="image-map">
+            <area target="_blank" alt="NEWJEANS" title="NewJeans" href="NJMAIN.htm" coords="702,240,1161,641" shape="rect">
+            <area target="_self" alt="ORV" title="Omnscient Reader's Viewpoint" href="orv.htm" coords="281,253,407,429" shape="rect">
+            <area target="_self" alt="MOUNT HUA" title="Return of the Mount Hua Sect" href="mounthua.htm" coords="284,465,410,641" shape="rect">
+            <area target="_self" alt="NANO MACHINE" title="Nano Machine" href="nanomachine.htm" coords="499,252,625,428" shape="rect">
+            <area target="_self" alt="ENDING MAKER" title="Ending Maker" href="endingmaker.htm" coords="501,462,627,638" shape="rect">
+            <area target="_self" alt="WUTHERING WAVES" title="Wuthering Waves" href="WuWa.htm" coords="1277,239,1577,644" shape="rect">
+            
+        </map>
+    </div>
+
+    <footer>
+        <img src="pics/CREDIT.png" alt="Copyright" usemap="#credits" >
+
+    <map name="credits"> 
+        <area target="_self" alt="Credits to" title="credits" href="credits.htm" coords="512,509,0,0" shape="rect">
+
+    </map>
+       (Please click here)
+    </footer>
+</body>
+</html>
